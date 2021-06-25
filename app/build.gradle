@@ -2,7 +2,10 @@ plugins {
     id 'com.android.application'
     id 'com.aice.plugins'
 }
-
+test {
+    name '老王'
+    age '27'
+}
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
