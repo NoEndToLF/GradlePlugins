@@ -5,4 +5,18 @@
   <groupId>com.aice.plugins</groupId>
   <artifactId>testplugins</artifactId>
   <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle</artifactId>
+      <version>4.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-commons</artifactId>
+      <version>9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
