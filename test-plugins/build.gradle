@@ -13,9 +13,9 @@ repositories {
 }
 
 
-def group='com.aice.plugins' //组
-def version='1.0.0' //版本
-def artifactId='testplugins' //唯一标示
+def group = 'com.aice.plugins' //组
+def version = '1.1.0' //版本
+def artifactId = 'testplugins' //唯一标示
 
 
 //将插件打包上传到本地maven仓库
